@@ -1,0 +1,35 @@
+.chat-main
+  .chat-main__group-info
+    .chat-main__group-info__group-name
+      グループ名
+    .chat-main__group-info__edit
+      = link_to "#", class:"chat-main__group-info__group-edit" do
+        Edit
+    .chat-main__group-info__member
+      Memeber:name
+  .chat-main__message-lists
+    .chat-main__message-lists__list
+      .chat-main__message-lists__name
+        name
+        .chat-main__message-lists__message
+          コメントコメントコメントコメントコメント
+      .chat-main__message-lists__date
+        yyyy/mm/dd 00:00:00
+    .chat-main__message-lists__list
+      .chat-main__message-lists__name
+        name
+        .chat-main__message-lists__message
+          コメントコメントコメントコメントコメント
+      .chat-main__message-lists__date
+        yyyy/mm/dd 00:00:00
+  .chat-main__message-form
+    .chat-main__message-form__input
+      .chat-main__message-form__input__text
+        type a message
+        .chat-main__message-form__input__image
+          %label{class: "chat-main__message-form__input__image"}
+            = icon('fas', 'image')
+            %input{type: "file", class:"file-icon"}
+    .chat-main__message-form__send
+      = link_to "#", class:"chat-main__message-form__send-form" do
+        Send

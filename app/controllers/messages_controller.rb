@@ -29,6 +29,3 @@ class MessagesController < ApplicationController
     @group = Group.find(params[:group_id])
   end
 end
-
-        # format.html { redirect_to group_messages_path, notice: "メッセージを送信しました" }
-        # redirect_to group_messages_path(@group), notice: 'メッセージが送信されました'

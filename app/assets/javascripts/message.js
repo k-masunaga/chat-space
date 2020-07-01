@@ -37,7 +37,6 @@ $(function(){
       return html;
     };
   }
-  console.log('hoge');
   $('#new_message').on('submit', function(e){
     e.preventDefault();
     var formData = new FormData(this);

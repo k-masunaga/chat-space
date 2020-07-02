@@ -38,9 +38,6 @@ $waterBlueColor:#38aef0;
     padding:0 20px;
     font-weight: bold;
     background-color: #253141;
-    position: fixed;
-    position: relative;
-    top: 0px;
     .top-items{
       @include clearfix;
       width: 260px;
@@ -58,11 +55,8 @@ $waterBlueColor:#38aef0;
   }
   &__group-list{
     @include space(calc(100vh - 100px), 300px);
-    margin-top: 100px;
     background-color: #2f3e51;
     overflow: scroll;
-    position: absolute;
-    bottom: 0px;
     .group{
       padding: 0 20px 40px;
       color: $mainWhiteColor;

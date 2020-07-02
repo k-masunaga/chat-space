@@ -72,10 +72,6 @@ $(function(){
         data: {id: last_message_id}
       })
       .done(function(messages) {
-<<<<<<< HEAD
-        console.log(messages)
-=======
->>>>>>> 0f9569cf66281e894d43a90bc17e1c2da07064b7
         if (messages.length !== 0) {
           var insertHTML = '';
           $.each(messages, function(i, message){
